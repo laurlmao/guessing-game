@@ -17,7 +17,7 @@ function checknumber() {
         outputBox.innerText = "too low!";
     }
 
-    else if (guess = newNumber) {
+    else if (guess == newNumber) {
         feedbackBox.innertext = "correct!";
     }
 }
